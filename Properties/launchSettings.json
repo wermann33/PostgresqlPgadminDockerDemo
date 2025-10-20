@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PostgresqlDockerDemo": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
