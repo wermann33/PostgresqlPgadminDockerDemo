@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PostgresqlDockerDemo.Application.Abstractions
 {
-    internal interface IProductRepository
+    public interface IProductRepository
     {
         long Create(string name, decimal price);
         Product? GetById(long id);

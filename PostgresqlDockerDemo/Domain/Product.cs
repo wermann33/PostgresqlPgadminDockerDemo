@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PostgresqlDockerDemo.Domain
 {
-    internal sealed class Product
+    public sealed class Product
     {
         public long Id { get; }
         public string Name { get; }
